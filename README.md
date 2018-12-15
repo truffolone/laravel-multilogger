@@ -11,7 +11,7 @@ You just have to install the composer package and call
 MultiLogger::log('Message Text', 'filename', 'level', 'channel');
 ```
 
-Message Text if the only field needed
+Message Text is the only field needed
 
 For example, if I write
 
