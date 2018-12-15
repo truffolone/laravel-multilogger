@@ -1,6 +1,10 @@
 # laravel-multilogger
 A simple package that allows you to write logs into multiple files
 
+```
+composer require truffolone/multi-logger
+```
+
 You just have to install the composer package and call 
 
 ```
