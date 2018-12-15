@@ -2,7 +2,7 @@
 
 namespace Truffolone\MultiLogger;
 
-use App\Facades\MultiLogger;
+use Truffolone\MultiLogger\Facades\MultiLogger;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
@@ -25,7 +25,7 @@ class MultiLoggerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        App::bind('mysiteclass', function()
+        App::bind('MultiLogger', function()
         {
 
             return new MultiLogger();
