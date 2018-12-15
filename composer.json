@@ -1,0 +1,26 @@
+{
+    "name": "truffolone/multi-logger",
+    "description": "Laravel package to create multiple file log",
+    "authors": [
+        {
+            "name": "Daniele Verra",
+            "email": "daniele.verra@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Truffolone\\MultiLogger\\MultiLoggerServiceProvider"
+            ],
+            "aliases": {
+                "MultiLogger": "Truffolone\\Multilogger\\Facades\\MultiLogger"
+            }
+        }
+    }
+}
